@@ -18,5 +18,8 @@ class Money
         return new Money(-1 * $this->amount);
     }
 
+    public function plus($number){
+        $this->amount+=$number;
+    }
     // ...
 }
